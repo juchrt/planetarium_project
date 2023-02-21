@@ -1,6 +1,6 @@
-# projet_OFF
+# Open Food Facts Project (project_OFF)
 
-This template should help get you started developing with Vue 3 in Vite.
+This school project will use the Open Food Facts API.
 
 ## Recommended IDE Setup
 

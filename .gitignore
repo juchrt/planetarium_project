@@ -29,5 +29,4 @@ coverage
 
 .eslintrc.cjs
 .prettierrc.json
-vite.config.js 
 .vscode/extensions.json
