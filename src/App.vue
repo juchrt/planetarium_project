@@ -1,9 +1,12 @@
 <script>
 import HeaderComponent from "@/components/structure/HeaderComponent.vue";
 import FooterComponent from "@/components/structure/FooterComponent.vue";
+import ProductComponent from "@/components/ProductComponent.vue";
+import BodyComponent from "@/components/BodyComponent.vue";
+import BodyCardComponent from "@/components/BodyCardComponent.vue";
 
 export default {
-  components: { HeaderComponent, FooterComponent }
+  components: { HeaderComponent, ProductComponent, FooterComponent, BodyComponent, BodyCardComponent, }
 }
 
 </script>

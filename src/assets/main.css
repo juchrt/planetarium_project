@@ -1,0 +1,131 @@
+html {
+    background-color: #333333;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #4F4F4F;
+    text-align: center;
+}
+
+#navbar-logo {
+    margin: 1rem;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#navbar-text a {
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3, a {
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.65px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap:wrap ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem 10rem;
+    min-height: 100%;
+}
+
+.card {
+    background-color: #4F4F4F;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 10rem 4rem;
+    text-align: center;
+    width: 220px;
+    justify-self: center;
+    align-self: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.mars {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #FF4F28;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.sun {
+    display: block;
+    position: relative;
+    width: 175px;
+    height: 175px;
+    background: #FFCE51;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #4F4F4F;
+    text-align: center;
+    align-items: end;
+    padding: 0.5rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
