@@ -5,9 +5,9 @@ export default {
 </script>
 
 <template>
-  <div class="bloc">
-    Je suis le footer
-  </div>
+  <footer>
+    <p>Julie Chartier - 2023</p>
+  </footer>
 </template>
 
 
