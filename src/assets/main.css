@@ -92,17 +92,6 @@ h2 {
     text-align: center;
 }
 
-.mars {
-    position: relative;
-    width: 118px;
-    height: 118px;
-    background: #FF4F28;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
-}
-
 .sun {
     display: block;
     position: relative;
@@ -114,6 +103,105 @@ h2 {
     justify-self: center;
     align-self: center;
     margin-top: 20px;
+}
+
+.mercury {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #C4C9D9;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.earth {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #2F4698;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.jupiter {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #F79797;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.uranus {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #CAF2F2;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.venus {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #FFB865;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.mars {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #FF4F28;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.saturn {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #C3B772;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.neptune {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #3E64EC;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.moon {
+    position: relative;
+    width: 118px;
+    height: 118px;
+    background: #959595;
+    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
 }
 
 footer {

@@ -71,7 +71,7 @@ export default{
 <template>
     <main class="cards-container">
         <div v-for="body in bodies" :key="body.id" >
-            <BodyCardComponent :title="body.id" :objectType="body.englishName"></BodyCardComponent>
+            <BodyCardComponent :title="body.id" :objectType="body.englishName" :bodyType="body.bodyType"></BodyCardComponent>
         </div>
     </main>
 </template>
