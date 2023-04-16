@@ -15,9 +15,3 @@ export default {
   </header>
   
 </template>
-
-<style>
-  .bloc{
-    display: block;
-  }
-</style>
