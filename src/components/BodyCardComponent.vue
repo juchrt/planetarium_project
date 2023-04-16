@@ -14,6 +14,11 @@ export default{
                 "mars",
                 "saturn",
                 "neptune"
+            ],
+            typesKnown: [
+                "asteroid",
+                "moon",
+                "dwarf planet"
             ]
         }
     },
@@ -37,10 +42,10 @@ export default{
         async whichImage(){
             if (this.planetsKnown.includes(this.objectType.toLowerCase())){
                 this.planetType = this.objectType;
-                return this.objectType;
-            }else{
+            }else if (this.typesKnown.includes(this.bodyType.toLowerCase())) {
                 this.planetType = this.bodyType;
-                return this.planetType;
+            }else{
+                this.planetType = "otherType";
             }
         }
     }

@@ -1,3 +1,4 @@
+/* ----- Structure ----- */
 html {
     background-color: #333333;
     font-family: 'Jacques Francois';
@@ -43,6 +44,26 @@ body {
     color: #FFFFFF;
 }
 
+main {
+    min-height: 25rem;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #4F4F4F;
+    text-align: center;
+    align-items: end;
+    padding: 0.5rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ----- Polices ----- */
 a {
     text-decoration: none;
 }
@@ -66,6 +87,7 @@ h2 {
     color: #FFFFFF;
 }
 
+/* ----- Body cards ----- */
 .cards-container {
     display: flex;
     flex-wrap:wrap ;
@@ -92,128 +114,82 @@ h2 {
     text-align: center;
 }
 
-.sun {
+/* ----- Body view ----- */
+.bodyComponent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* ----- Planètes ----- */
+span {
     display: block;
     position: relative;
-    width: 175px;
-    height: 175px;
-    background: #FFCE51;
+    width: 118px;
+    height: 118px;
     box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     justify-self: center;
     align-self: center;
+}
+
+
+.sun {
+    width: 175px;
+    height: 175px;
+    background: #FFCE51;
     margin-top: 20px;
 }
 
 .mercury {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #C4C9D9;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .earth {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #2F4698;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .jupiter {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #F79797;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .uranus {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #CAF2F2;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .venus {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #FFB865;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .mars {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #FF4F28;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .saturn {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #C3B772;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .neptune {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #3E64EC;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
 .moon {
-    position: relative;
-    width: 118px;
-    height: 118px;
     background: #959595;
-    box-shadow: inset 0px 4px 75px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    justify-self: center;
-    align-self: center;
 }
 
-footer {
-    background-color: #4F4F4F;
-    text-align: center;
-    align-items: end;
-    padding: 0.5rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.asteroid {
+    width: 50px;
+    height: 50px;
+    background: #ffe4cd;
 }
 
-footer p {
-    margin: 0;
+[class="dwarf planet"] {
+    width: 80px;
+    height: 80px;
+    background: #ffe4cd;
+}
+
+.othertype {
+    width: 100px;
+    height: 100px;
+    background: #CF9ACA;
 }

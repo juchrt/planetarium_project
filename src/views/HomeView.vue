@@ -3,5 +3,6 @@
 
 <template>
   <main>
+    Coming soon..
   </main>
 </template>
